@@ -67,7 +67,6 @@ def loginn(request):
     else:
         return render(request,"login.html")
 
-    
 
 def logoutt(request):
     logout(request)
